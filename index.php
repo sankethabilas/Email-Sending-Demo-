@@ -11,16 +11,20 @@
     <h1>Email Sending</h1>
 
     <p>Recipient's Email</p>
-    <input type="email" />
+    <input type="email" id="recipient" />
 
     <p>Subject</p>
-    <input type="text" />
+    <input type="text" id="subject" />
 
     <p>Content</p>
-    <textarea cols="30" rows="10"></textarea>
+    <textarea cols="30" rows="10" id="content"></textarea>
     <br /><br />
 
-    <button>Send Email</button>
+    <button onclick="send();">Send Email</button>
+
+   
+
+    <script src="script.js"></script>
 
 </body>
 
